@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="CN">
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="description" content="Base Syntax基本语法标识符Java 的所有的组成部分都要有自己的名称。类、变量和方法的名称称为标识符。 在 Java 中，需要记住关于标识符的一下几点。如下：  所有标识符必须以字母（ A 到 Z 或者 a 到 z ）、货币字符（ $ ）或者下划线( _ )开头。 在第一个标识符之后可以有任意字母组合。 关键字不能被用作标识符。 大多数标识符需要区分大小写。 合法标识符的例子： age,">
+<meta name="keywords" content="github,Java">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java基本语法">
+<meta property="og:url" content="http://kevinbin.com/2018/08/21/java基本语法/index.html">
+<meta property="og:site_name" content="olive&#39;s Blogs">
+<meta property="og:description" content="Base Syntax基本语法标识符Java 的所有的组成部分都要有自己的名称。类、变量和方法的名称称为标识符。 在 Java 中，需要记住关于标识符的一下几点。如下：  所有标识符必须以字母（ A 到 Z 或者 a 到 z ）、货币字符（ $ ）或者下划线( _ )开头。 在第一个标识符之后可以有任意字母组合。 关键字不能被用作标识符。 大多数标识符需要区分大小写。 合法标识符的例子： age,">
+<meta property="og:locale" content="CN">
+<meta property="og:updated_time" content="2018-08-21T08:14:08.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="java基本语法">
+<meta name="twitter:description" content="Base Syntax基本语法标识符Java 的所有的组成部分都要有自己的名称。类、变量和方法的名称称为标识符。 在 Java 中，需要记住关于标识符的一下几点。如下：  所有标识符必须以字母（ A 到 Z 或者 a 到 z ）、货币字符（ $ ）或者下划线( _ )开头。 在第一个标识符之后可以有任意字母组合。 关键字不能被用作标识符。 大多数标识符需要区分大小写。 合法标识符的例子： age,">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>java基本语法</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast')" style="display:none"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2018/08/14/Hexo搭建Github博客以及遇到的坑/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle()" onmouseout="$('#i-next').toggle()"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast')"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle()" onmouseout="$('#i-top').toggle()"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle()" onmouseout="$('#i-share').toggle()" onclick="$('#share').toggle();return false"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none">Previous post</span>
+      <span id="i-next" class="info" style="display:none">Next post</span>
+      <span id="i-top" class="info" style="display:none">Back to top</span>
+      <span id="i-share" class="info" style="display:none">Share post</span>
+    </span>
+    <br>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://kevinbin.com/2018/08/21/java基本语法/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://kevinbin.com/2018/08/21/java基本语法/&text=java基本语法"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://kevinbin.com/2018/08/21/java基本语法/&is_video=false&description=java基本语法"><i class="fab fa-pinterest" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=java基本语法&body=Check out this article: http://kevinbin.com/2018/08/21/java基本语法/"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-get-pocket" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-reddit" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-stumbleupon" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-digg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://kevinbin.com/2018/08/21/java基本语法/&name=java基本语法&description="><i class="fab fa-tumblr" aria-hidden="true"></i></a></li>
+</ul>
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Base-Syntax"><span class="toc-number">1.</span> <span class="toc-text">Base Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#基本语法"><span class="toc-number">1.1.</span> <span class="toc-text">基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标识符"><span class="toc-number">1.1.1.</span> <span class="toc-text">标识符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#保留字"><span class="toc-number">1.1.2.</span> <span class="toc-text">保留字</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修饰符"><span class="toc-number">1.1.3.</span> <span class="toc-text">修饰符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#变量"><span class="toc-number">1.1.4.</span> <span class="toc-text">变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常量"><span class="toc-number">1.1.5.</span> <span class="toc-text">常量</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本数据类型"><span class="toc-number">1.2.</span> <span class="toc-text">基本数据类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本运算符"><span class="toc-number">1.3.</span> <span class="toc-text">基本运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#算数运算符"><span class="toc-number">1.3.1.</span> <span class="toc-text">算数运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关系运算符"><span class="toc-number">1.3.2.</span> <span class="toc-text">关系运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#位运算符"><span class="toc-number">1.3.3.</span> <span class="toc-text">位运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#逻辑运算符"><span class="toc-number">1.3.4.</span> <span class="toc-text">逻辑运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赋值运算符"><span class="toc-number">1.3.5.</span> <span class="toc-text">赋值运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#其他运算符"><span class="toc-number">1.3.6.</span> <span class="toc-text">其他运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#三目运算符"><span class="toc-number">1.3.6.1.</span> <span class="toc-text">三目运算符</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#循环控制"><span class="toc-number">1.4.</span> <span class="toc-text">循环控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#while-循环"><span class="toc-number">1.4.1.</span> <span class="toc-text">while 循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#do…while-循环"><span class="toc-number">1.4.2.</span> <span class="toc-text">do…while 循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#for-循环"><span class="toc-number">1.4.3.</span> <span class="toc-text">for 循环</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#条件判断"><span class="toc-number">1.5.</span> <span class="toc-text">条件判断</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#if-else"><span class="toc-number">1.5.1.</span> <span class="toc-text">if..else</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#switch"><span class="toc-number">1.5.2.</span> <span class="toc-text">switch</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#字符串"><span class="toc-number">1.6.</span> <span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#集合"><span class="toc-number">1.7.</span> <span class="toc-text">集合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#数组"><span class="toc-number">1.7.1.</span> <span class="toc-text">数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#List"><span class="toc-number">1.7.2.</span> <span class="toc-text">List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Set"><span class="toc-number">1.7.3.</span> <span class="toc-text">Set</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Map"><span class="toc-number">1.7.4.</span> <span class="toc-text">Map</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+    
+    <div class="content index my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="posttitle" itemprop="name headline">
+        java基本语法
+    </h1>
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">olive's Blogs</span>
+      </span>
+      <div class="postdate">
+        <time datetime="2018-08-21T08:12:11.000Z" itemprop="datePublished">2018-08-21</time>
+    </div>
+      <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/Java/">Java</a>, <a class="tag-link" href="/tags/github/">github</a>
+    </div>
+    </div>
+  </header>
+  
+  <div class="content" itemprop="articleBody">
+    <h1 id="Base-Syntax"><a href="#Base-Syntax" class="headerlink" title="Base Syntax"></a>Base Syntax</h1><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h3><p>Java 的所有的组成部分都要有自己的名称。类、变量和方法的名称称为标识符。</p>
+<p>在 Java 中，需要记住关于标识符的一下几点。如下：</p>
+<ul>
+<li>所有标识符必须以字母（ A 到 Z 或者 a 到 z ）、货币字符（ $ ）或者下划线( _ )开头。</li>
+<li>在第一个标识符之后可以有任意字母组合。</li>
+<li>关键字不能被用作标识符。</li>
+<li>大多数标识符需要区分大小写。</li>
+<li>合法标识符的例子： age, $salary, _value, __1_value</li>
+<li>非法标识符的例子： 123abc, -salary</li>
+<li>建议驼峰标识，起名应“见名知意”</li>
+</ul>
+<h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><p>又称关键字，Java语言保留的特殊意义的关键字，他们用来表示一种数据类型，或者表示程序的结构等，关键字不能用作变量名、方法名、类名、包名和参数。</p>
+<p><code>abstract</code> <code>assert</code> <code>boolean</code> <code>break</code> <code>byte</code> <code>case</code> <code>catch</code> <code>char</code> <code>class</code> <code>const</code> <code>continue</code> <code>default</code> <code>do</code> <code>double</code> <code>else</code> <code>enum</code> <code>extends</code> <code>final</code> <code>finally</code> <code>float</code> <code>for</code> <code>goto</code> <code>if</code> <code>implements</code> <code>import</code> <code>instanceof</code> <code>int</code> <code>interface</code> <code>long</code> <code>native</code> <code>new</code> <code>package</code> <code>private</code> <code>protected</code> <code>public</code> <code>return</code> <code>short</code> <code>static</code> <code>strictfp</code> <code>super</code> <code>switch</code> <code>synchronized</code> <code>this</code> <code>throw</code> <code>throws</code> <code>transient</code> <code>try</code> <code>void</code> <code>volatile</code> <code>while</code></p>
+<h3 id="修饰符"><a href="#修饰符" class="headerlink" title="修饰符"></a>修饰符</h3><p>如其语言一样，方法和类等等是可以通过修饰符修饰的。Java 中有两种修饰符：</p>
+<ul>
+<li><strong>访问修饰符</strong>：default, public , protected, private</li>
+<li><strong>非访问修饰符</strong>：final, abstract</li>
+</ul>
+<h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><ul>
+<li>本地变量</li>
+<li>类变量（静态变量）</li>
+<li>实例变量（非静态变量）</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Variable</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> String msg;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">0</span>; <span class="comment">// i 本地变量</span></span><br><span class="line">        Variable.msg = <span class="string">"Hello"</span>; <span class="comment">// 类变量</span></span><br><span class="line">        Variable var = <span class="keyword">new</span> Variable(); <span class="comment">// 实例变量</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>利用关键字<code>final</code>声明常量、常量名通常采用大写</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> MAX_VALUE = <span class="number">256</span></span><br></pre></td></tr></table></figure>
+<h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><p>Java 支持 8 种原始数据类型。<code>byte</code> <code>short</code> <code>int</code> <code>long</code> <code>boolean</code>  <code>char</code> <code>float</code> <code>double</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">byte</span> a = <span class="number">100</span>; <span class="comment">// 8位 范围：-128~127 默认值0</span></span><br><span class="line"><span class="keyword">short</span> b = <span class="number">1000</span>; <span class="comment">// 16位 范围：-32768(-2^15) ~ 32767(2^15-1) 默认值0</span></span><br><span class="line"><span class="keyword">int</span> i = <span class="number">10000</span>;  <span class="comment">// 32位 范围：- 2,147,483,648(-2^31) ~ 2,147,483,647(2^31 -1) 默认值0 </span></span><br><span class="line"><span class="keyword">long</span> l = <span class="number">100000000L</span>; <span class="comment">// 64位 范围：-2^63 ~ 2^63-1 默认值0L</span></span><br><span class="line"><span class="keyword">float</span> f = <span class="number">2334.1f</span>; <span class="comment">// 32位 默认值0.0f</span></span><br><span class="line"><span class="keyword">double</span> d = <span class="number">1223.4</span>; <span class="comment">// 64位 默认值0.0d</span></span><br><span class="line"><span class="keyword">boolean</span> bool = <span class="keyword">true</span>; <span class="comment">// 默认值false </span></span><br><span class="line"><span class="keyword">char</span> c = <span class="string">'a'</span>; <span class="comment">// 16位Unicode字符</span></span><br></pre></td></tr></table></figure>
+<h2 id="基本运算符"><a href="#基本运算符" class="headerlink" title="基本运算符"></a>基本运算符</h2><p>Java 针对操控变量提供了一组丰富的运算符。</p>
+<ul>
+<li>算数运算符</li>
+<li>关系运算符</li>
+<li>位运算符</li>
+<li>逻辑运算符</li>
+<li>赋值运算符</li>
+<li>其他运算符</li>
+</ul>
+<h3 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h3><p><code>+</code> <code>-</code> <code>*</code> <code>/</code> <code>%</code> <code>++</code> <code>--</code> </p>
+<h3 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h3><p><code>==</code> <code>!=</code> <code>&gt;</code> <code>&lt;</code> <code>&gt;=</code> <code>&lt;=</code> </p>
+<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p><code>&amp;</code> <code>|</code> <code>^</code> <code>~</code> <code>&gt;&gt;</code> <code>&lt;&lt;</code> </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">0011</span> <span class="number">1100</span></span><br><span class="line">b = <span class="number">0000</span> <span class="number">1101</span></span><br><span class="line"></span><br><span class="line">a&amp;b = <span class="number">0000</span> <span class="number">1100</span></span><br><span class="line">a|b = <span class="number">0011</span> <span class="number">1101</span></span><br><span class="line">a^b = <span class="number">0011</span> <span class="number">0001</span></span><br><span class="line">~a  = <span class="number">1100</span> <span class="number">0011</span></span><br></pre></td></tr></table></figure>
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p><code>&amp;&amp;</code> <code>||</code> <code>!</code> </p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">String name = <span class="string">"Peter"</span>;</span><br><span class="line">String pwd = <span class="string">"peter"</span>;</span><br><span class="line"><span class="keyword">if</span> (<span class="string">"Peter"</span>.equals(name) &amp;&amp; <span class="string">"peter"</span>.equals(pwd)) &#123; <span class="comment">// name与pwd同是满足条件是进入</span></span><br><span class="line">    System.out.print(<span class="string">"----"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h3><p><code>=</code> <code>+=</code> <code>-=</code> <code>*=</code> <code>/=</code> <code>%=</code> <code>&lt;&lt;=</code> <code>&gt;&gt;=</code> <code>&amp;=</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> b += a;</span><br></pre></td></tr></table></figure>
+<h3 id="其他运算符"><a href="#其他运算符" class="headerlink" title="其他运算符"></a>其他运算符</h3><h4 id="三目运算符"><a href="#三目运算符" class="headerlink" title="三目运算符"></a>三目运算符</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a , b;</span><br><span class="line">a = <span class="number">1</span>;</span><br><span class="line">b = (a == <span class="number">1</span>) ? <span class="number">10</span> : <span class="number">20</span>; <span class="comment">// 判断a==1，如果为真 b=10 否则b=20;</span></span><br></pre></td></tr></table></figure>
+<h2 id="循环控制"><a href="#循环控制" class="headerlink" title="循环控制"></a>循环控制</h2><p>三大循环： <code>while</code> <code>do..while</code> <code>for</code></p>
+<h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 语法如下：执行时判断布尔表达式，如果为真执行循环体，直到条件为假或者循环体return</span></span><br><span class="line"><span class="keyword">while</span>(expression_boolean)&#123;</span><br><span class="line">    <span class="comment">// Statements</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">while</span> (i &lt; <span class="number">20</span>) &#123;</span><br><span class="line">    i++;</span><br><span class="line">    sout(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="do…while-循环"><a href="#do…while-循环" class="headerlink" title="do…while 循环"></a>do…while 循环</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 语法如下：先执行循环体，然后在判断表达式</span></span><br><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">   <span class="comment">//Statements</span></span><br><span class="line">&#125; <span class="keyword">while</span> (expression_boolean); </span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    sout(i);</span><br><span class="line">    i++;</span><br><span class="line">&#125;<span class="keyword">while</span> (i &lt; <span class="number">20</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 语法如下：首先执行初始化，并只执行一次，然后判断表达式，如果满足，则进入循环体，如果不满足，则for循环结束，执行完循环体之后就更新语句，然后又判断表达式，如此循环，直到</span></span><br><span class="line"><span class="keyword">for</span>(initialization; expression_boolean; update) &#123;</span><br><span class="line">   <span class="comment">//Statements</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (i%<span class="number">5</span> == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">continue</span>; <span class="comment">// 跳出当前循环，进入下一次循环迭代</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (i == <span class="number">8</span>) &#123;</span><br><span class="line">        <span class="keyword">break</span>;  <span class="comment">//  结束当前循环体。不再执行</span></span><br><span class="line">    &#125;</span><br><span class="line">    sout(<span class="string">"i = "</span> + i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="条件判断"><a href="#条件判断" class="headerlink" title="条件判断"></a>条件判断</h2><ul>
+<li>if 语句</li>
+<li>switch 语句</li>
+</ul>
+<h3 id="if-else"><a href="#if-else" class="headerlink" title="if..else"></a>if..else</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 语法如下： 判断布尔表达式，为真执行</span></span><br><span class="line"><span class="keyword">if</span>(expression_boolean) &#123;</span><br><span class="line">   <span class="comment">//Statements </span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 多个判断条件，else if可以多个</span></span><br><span class="line"><span class="keyword">if</span>(expression_boolean) &#123;</span><br><span class="line">    <span class="comment">// Statements</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(expression_boolean)&#123;</span><br><span class="line">    <span class="comment">// </span></span><br><span class="line">&#125;<span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="comment">// </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="switch"><a href="#switch" class="headerlink" title="switch"></a>switch</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 语法如下：表达式只能由byte、short、int、char构成，java7之后支持String对象了。</span></span><br><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//Statements</span></span><br><span class="line">       <span class="keyword">break</span>; </span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//Statements</span></span><br><span class="line">       <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span> :</span><br><span class="line">       <span class="comment">//Statements</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p>Java 平台提供了 String 类来创建和操作字符串。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">String str = <span class="string">"Hello World"</span>;</span><br><span class="line"><span class="keyword">char</span>[] value = &#123;<span class="string">"a"</span>,<span class="string">"b"</span>,<span class="string">"c"</span>,<span class="string">"d"</span>&#125;;</span><br><span class="line">String str1 = <span class="keyword">new</span> String(value);<span class="comment">//相当于String str1 = new String("abcd");</span></span><br><span class="line"><span class="keyword">int</span> strlength = str.length();<span class="comment">// 字符串长度 strlength = 11</span></span><br><span class="line"><span class="keyword">char</span> ch = str.charAt(<span class="number">4</span>);<span class="comment">// 获得指定位置的字符 ch = o</span></span><br><span class="line"><span class="comment">// substring 提取字符串</span></span><br><span class="line">String str2 = str1.substring(<span class="number">2</span>);<span class="comment">//str2 = "lo World"  从下标2开始</span></span><br><span class="line">String str3 = str1.substring(<span class="number">2</span>,<span class="number">5</span>);<span class="comment">//str3 = "lo "  从下标2开始，5结束</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// compareTo比较字符串大小 该方法是对字符串内容按字典顺序进行大小比较，通过返回的整数值指明当前字符串与参数字符串的大小关系。若当前对象比参数大则返回正整数，反之返回负整数，相等返回0。</span></span><br><span class="line">String str4 = <span class="keyword">new</span> String(<span class="string">"abc"</span>);</span><br><span class="line">String str5 = <span class="keyword">new</span> String(<span class="string">"ABC"</span>);</span><br><span class="line"><span class="keyword">int</span> a = str4.compareTo(str5);<span class="comment">//a&gt;0</span></span><br><span class="line"><span class="keyword">int</span> b = str4.compareTo(str5);<span class="comment">//b=0</span></span><br><span class="line"><span class="comment">// 比较当前字符串和参数字符串，在两个字符串相等的时候返回true，否则返回false。</span></span><br><span class="line"><span class="keyword">boolean</span> c = str4.equals(str5);<span class="comment">//c=false</span></span><br><span class="line"><span class="comment">// 与equals方法相似，但忽略大小写。</span></span><br><span class="line"><span class="keyword">boolean</span> d = str4.equalsIgnoreCase(str5);<span class="comment">//d=true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 字符串链接</span></span><br><span class="line">str = <span class="string">"a"</span>.concat(<span class="string">"b"</span>).concat(<span class="string">"c"</span>);  <span class="comment">// 相当于"a"+"b"+"c"</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 查找字符串  用于查找当前字符串中字符或子串，返回字符或子串在当前字符串中从左边起首次出现的位置，若没有出现则返回-1。</span></span><br><span class="line">a = str.indexOf(<span class="string">'l'</span>);<span class="comment">//a = 2</span></span><br></pre></td></tr></table></figure>
+<h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><p>数组是储存有多重相同变量类型的对象。然而，数字自身也是堆中的一个对象。我们将要学习如何声明，建立，初始化数组。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 声明一个数组</span></span><br><span class="line"><span class="keyword">new</span> elementType [arraySize]</span><br><span class="line"><span class="comment">// 创建一个数组长度为5的空数组</span></span><br><span class="line"><span class="keyword">int</span>[] integers = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">5</span>];</span><br><span class="line"><span class="keyword">int</span> i ;</span><br><span class="line"><span class="comment">// 为每一个数组元素赋值</span></span><br><span class="line"><span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; integers.length; i++) &#123;</span><br><span class="line">  integers[i] = i+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="List"><a href="#List" class="headerlink" title="List"></a>List</h3><p>有序集合，List是一个接口，所以不能实例化，常用的实现是ArrayList.</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; listOfStrings = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">listOfIntegers.add(<span class="string">"北京"</span>);</span><br><span class="line">listOfIntegers.add(<span class="string">"上海"</span>);</span><br><span class="line">listOfIntegers.add(<span class="string">"深圳"</span>);</span><br><span class="line"><span class="keyword">for</span> (String str : listOfIntegers) &#123;</span><br><span class="line">	sout(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Set"><a href="#Set" class="headerlink" title="Set"></a>Set</h3><p>无序集合，且没有重复项。Set也是一个接口，不能实例化，以HashSet来说：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Set&lt;Integer&gt; setOfIntegers = <span class="keyword">new</span> HashSet&lt;Integer&gt;();</span><br><span class="line">setOfIntegers.add(Integer.valueOf(<span class="number">10</span>));</span><br><span class="line">setOfIntegers.add(Integer.valueOf(<span class="number">11</span>));</span><br><span class="line">setOfIntegers.add(Integer.valueOf(<span class="number">10</span>));</span><br><span class="line"><span class="keyword">for</span> (Integer i : setOfIntegers) &#123;</span><br><span class="line">  sout(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Map"><a href="#Map" class="headerlink" title="Map"></a>Map</h3><p>以键值对的形式存储。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Map&lt;String, Integer&gt; mapOfIntegers = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">mapOfIntegers.put(<span class="string">"1"</span>, Integer.valueOf(<span class="number">1</span>));</span><br><span class="line">mapOfIntegers.put(<span class="string">"2"</span>, Integer.valueOf(<span class="number">2</span>));</span><br><span class="line">mapOfIntegers.put(<span class="string">"3"</span>, Integer.valueOf(<span class="number">3</span>));</span><br><span class="line">mapOfIntegers.put(<span class="string">"168"</span>, Integer.valueOf(<span class="number">168</span>));</span><br><span class="line">mapOfIntegers.get(<span class="string">"168"</span>); <span class="comment">// 168</span></span><br></pre></td></tr></table></figure>
+<p>未完待续…</p>
+  </div>
+</article>
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Base-Syntax"><span class="toc-number">1.</span> <span class="toc-text">Base Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#基本语法"><span class="toc-number">1.1.</span> <span class="toc-text">基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标识符"><span class="toc-number">1.1.1.</span> <span class="toc-text">标识符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#保留字"><span class="toc-number">1.1.2.</span> <span class="toc-text">保留字</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修饰符"><span class="toc-number">1.1.3.</span> <span class="toc-text">修饰符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#变量"><span class="toc-number">1.1.4.</span> <span class="toc-text">变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常量"><span class="toc-number">1.1.5.</span> <span class="toc-text">常量</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本数据类型"><span class="toc-number">1.2.</span> <span class="toc-text">基本数据类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本运算符"><span class="toc-number">1.3.</span> <span class="toc-text">基本运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#算数运算符"><span class="toc-number">1.3.1.</span> <span class="toc-text">算数运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关系运算符"><span class="toc-number">1.3.2.</span> <span class="toc-text">关系运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#位运算符"><span class="toc-number">1.3.3.</span> <span class="toc-text">位运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#逻辑运算符"><span class="toc-number">1.3.4.</span> <span class="toc-text">逻辑运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赋值运算符"><span class="toc-number">1.3.5.</span> <span class="toc-text">赋值运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#其他运算符"><span class="toc-number">1.3.6.</span> <span class="toc-text">其他运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#三目运算符"><span class="toc-number">1.3.6.1.</span> <span class="toc-text">三目运算符</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#循环控制"><span class="toc-number">1.4.</span> <span class="toc-text">循环控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#while-循环"><span class="toc-number">1.4.1.</span> <span class="toc-text">while 循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#do…while-循环"><span class="toc-number">1.4.2.</span> <span class="toc-text">do…while 循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#for-循环"><span class="toc-number">1.4.3.</span> <span class="toc-text">for 循环</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#条件判断"><span class="toc-number">1.5.</span> <span class="toc-text">条件判断</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#if-else"><span class="toc-number">1.5.1.</span> <span class="toc-text">if..else</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#switch"><span class="toc-number">1.5.2.</span> <span class="toc-text">switch</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#字符串"><span class="toc-number">1.6.</span> <span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#集合"><span class="toc-number">1.7.</span> <span class="toc-text">集合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#数组"><span class="toc-number">1.7.1.</span> <span class="toc-text">数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#List"><span class="toc-number">1.7.2.</span> <span class="toc-text">List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Set"><span class="toc-number">1.7.3.</span> <span class="toc-text">Set</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Map"><span class="toc-number">1.7.4.</span> <span class="toc-text">Map</span></a></li></ol></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://kevinbin.com/2018/08/21/java基本语法/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://kevinbin.com/2018/08/21/java基本语法/&text=java基本语法"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://kevinbin.com/2018/08/21/java基本语法/&is_video=false&description=java基本语法"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=java基本语法&body=Check out this article: http://kevinbin.com/2018/08/21/java基本语法/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://kevinbin.com/2018/08/21/java基本语法/&title=java基本语法"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://kevinbin.com/2018/08/21/java基本语法/&name=java基本语法&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast')"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2018 olive
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
