@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="zxx">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+		<title>华文财税</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<!--网站图标-->
+		<link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+		<!--Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!--字体 样式-->
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="css/helper.css">
+		<!-- 动画 -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<!--弹出框插件 -->
+		<link rel="stylesheet" type="text/css" href="css/venobox.css">
+		<!--轮播 banner-->
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+		<!--公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--响应样式 -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>
+	<script type="text/javascript">
+		(function() {
+			var whdef = 100 / 1920; // 表示1920的设计图,1rem == 100px 其他值都可以
+			// var wH = window.innerHeight;// 当前窗口的高度
+			var wW = window.innerWidth; // 当前窗口的宽度
+			var rem = wW * whdef; // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
+			document.getElementsByTagName("html")[0].style.fontSize = rem + 'px'
+		})()
+	</script>
+	<body>
+
+		<!-- 头部导航 开始 -->
+		<header id="mainHeader" class="header">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-expand-lg navbar-light p-0">
+				<div class="container-fluid">
+					<a href="index.html">
+						<img src="img/logo.png" alt="" class="logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<!-- <li class="nav-item active">
+							<a class="nav-link active" href="index.html">Home</a>
+						</li> -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="aboutUs" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									关于我们
+								</a>
+								<div class="dropdown-menu" aria-labelledby="aboutUs">
+									<a class="dropdown-item" href="aboutUs.html">公司概况</a>
+									<a class="dropdown-item" href="aboutUs.html">管理团队</a>
+									<a class="dropdown-item" href="aboutUs.html">分支机构</a>
+									<a class="dropdown-item" href="aboutUs.html">发展历程</a>
+									<a class="dropdown-item" href="aboutUs.html">荣誉资质</a>
+									<a class="dropdown-item" href="aboutUs.html">华文之歌</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="services.html">服务领域</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="blog" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									新闻中心
+								</a>
+								<div class="dropdown-menu" aria-labelledby="blog">
+									<a class="dropdown-item" href="news.html?id=1">华文动态</a>
+									<a class="dropdown-item" href="news.html?id=2">华文下午茶</a>
+									<a class="dropdown-item" href="news.html?id=3">专业解读</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="regulations.html">政策法规</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">华文讲堂</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="joinUs.html">加入我们</a>
+							</li>
+						</ul>
+						<div class="call_btn">
+							<a href="#">
+								<i class="fas fa-phone"></i>
+								400-995-2686
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--头部导航 结束 -->
+		<!-- 背景区域 开始 -->
+		<section id="newsSection" class="newsSection"></section>	
+		<!--  背景区域 结束  -->
+		<section class="news-info">
+			<div class="container-fluid">
+				<!-- 导航按钮 开始 -->
+				<div class="row news-info-navbox">
+					<a href="news.html" class="news-navbox-items">华文动态</a>
+					<a href="newsTea.html;" class="news-navbox-items active">华文下午茶</a>
+					<a href="javascript:0;" class="news-navbox-items">专业解读</a>
+				</div>
+				<!-- 导航按钮 结束 -->
+
+				<!-- 内容区域 开始 -->
+				<div class="row justify-content-center">
+					<div class="news-tab-centent">
+            <!-- 华文动态 开始 -->
+						<div class="newsTab_items">
+              <div class="row">
+                <div class="col-xl-9 news-itemslist-box">
+                  <div class="news-itemslist">
+                    <a href="newsDetails.html">
+											<div class="items-img-box">
+												<img src="./img/news/icon-jx.png" alt="" class="items-img"/>
+											</div>
+                      <div class="items-info-box">
+                        <p class="items-info-title">5月1日起免增值税！</p>
+                        <p class="items-info-text">新华社北京4月27日电 国务院总理李克强4月27日主持召开国务院常务会议，决定加大稳岗促就业政策力度，保持就业稳定和经济平稳运行…</p>
+                        <p class="items-info-f">
+                          <span>来源：</span>
+                          <img src="./img/news/icon-wt.png" />
+                          <span style="color: #333333;">新华社</span>
+                          <span class="items-info-s">时间：2022-06-17</span>
+                        </p>
+                      
+                      </div>
+                    </a>
+                  </div>
+                  <div class="news-itemslist">
+                    <a href="newsDetails.html">
+                      <img src="./img/news/icon-zwf.png" alt="" class="items-img"/>
+                      <div class="items-info-box">
+                        <p class="items-info-title">5月1日起免增值税！</p>
+                        <p class="items-info-text">新华社北京4月27日电 国务院总理李克强4月27日主持召开国务院常务会议，决定加大稳岗促就业政策力度，保持就业稳定和经济平稳运行…</p>
+                        <p class="items-info-f">
+                          <span>来源：</span>
+                          <img src="./img/news/icon-wt.png" />
+                          <span style="color: #333333;">新华社</span>
+                          <span class="items-info-s">时间：2022-06-17</span>
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="news-itemslist">
+                    <a href="newsDetails.html">
+                      <img src="./img/news/icon-zwf.png" alt="" class="items-img"/>
+                      <div class="items-info-box">
+                        <p class="items-info-title">5月1日起免增值税！</p>
+                        <p class="items-info-text">新华社北京4月27日电 国务院总理李克强4月27日主持召开国务院常务会议，决定加大稳岗促就业政策力度，保持就业稳定和经济平稳运行…</p>
+                        <p class="items-info-f">
+                          <span>来源：</span>
+                          <img src="./img/news/icon-wt.png" />
+                          <span style="color: #333333;">新华社</span>
+                          <span class="items-info-s">时间：2022-06-17</span>
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="col-xl-3 news-popular-box">
+                  <div class="popular-div">
+                    <div class="popular-keyWords-box">
+                      <div class="keyWords-title">热门关键词</div>
+                      <div class="keyWords-items-box">
+                        <div>
+                          <a href="javascript:0;" class="active">财务税收</a>
+                        </div>
+                        <div>
+                          <a href="javascript:0;">财务税收</a>
+                        </div>
+                        <div><a href="javascript:0;">财务税收</a></div>
+                        <div><a href="javascript:0;">财务税收</a></div>
+                        <div><a href="javascript:0;">财务税收</a></div>
+                        <div><a href="javascript:0;">财务税收</a></div>
+                        <div><a href="javascript:0;">财务税收</a></div>
+                      </div>
+                    </div>
+                    <div class="popular-news-box">
+                      <div class="popular-news-title">热门资讯</div>
+                      <div class="popular-news-items">
+                        <ul>
+                          <li>
+                            <a href="javascript:0;">
+                              <p class="news-itemsLi-title">
+                                <img src="./img/news/icon-jx.png" alt="" />
+                                <span>全国</span>
+                              </p>
+                              <p class="news-itemsLi-time">时间：2022-06-17</p>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="javascript:0;">
+                              <p class="news-itemsLi-title">
+                                <img src="./img/news/icon-jx.png" alt="" />
+                                <span>全国</span>
+                              </p>
+                              <p class="news-itemsLi-time">时间：2022-06-17</p>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="javascript:0;">
+                              <p class="news-itemsLi-title">
+                                <img src="./img/news/icon-jx.png" alt="" />
+                                <span>全国</span>
+                              </p>
+                              <p class="news-itemsLi-time">时间：2022-06-17</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+						</div>
+						<!-- 华文动态 结束 -->
+					</div>
+				</div>
+				<!-- 内容区域 结束 -->
+			</div>
+		</section>
+
+
+    		<!-- footer 开始 -->
+		<footer class="footer">
+			<div class="footer-info-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-info-ulbox">
+								<div class="footer-links">
+									<div>关于我们</div>
+									<ul>
+										<li><a href="#">华文动态</a></li>
+										<li><a href="#">华文下午茶</a></li>
+										<li><a href="#">行业动态</a></li>
+										<li><a href="#">财税政策</a></li>
+									</ul>
+								</div>
+								<div class="footer-links">
+									<div>服务领域</div>
+									<ul>
+										<li><a href="#">会计审计</a></li>
+										<li><a href="#">税务咨询</a></li>
+										<li><a href="#">资产评估</a></li>
+										<li><a href="#">造价咨询</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-logobox">
+								<a class="footer-logo" href="#"><img src="./img/logo-1.png" alt="logo" /></a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-telbox">
+								<div class="footer-telbox-top">
+									<img src="./img/icon-tel.png" />
+									<div class="footer-telbox-top-t">
+										<div class="telbox-top-text">全国服务热线</div>
+										<div class="telbox-top-num">400-955-2686</div>
+									</div>
+								</div>
+								<div class="footer-telbox-items">
+									<div>
+										<span class="span-text">北京服务热线</span>
+										<span class="span-num">010-82537588</span>
+									</div>
+									<div>
+										<span class="span-text">沧州服务热线</span>
+										<span class="span-num">0317-6612366</span>
+									</div>
+									<div>
+										<span class="span-text">邯郸服务热线</span>
+										<span class="span-num">0310-3212366</span>
+									</div>
+									<div>
+										<span class="span-text">新乡服务热线</span>
+										<span class="span-num">0373-2512366</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyRightArea">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<p style="font-family:'Microsoft Yahei';">&copy;Copyright © 2021 华文财税&nbsp;&nbsp;冀ICP备19008586号-1</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--  footer 结束 -->
+
+		<!--返回顶部 开始-->
+		<!-- <div class="totop">
+			<a href="#top">
+				<p>
+					<i class="fas fa-angle-up"></i>
+				</p>
+			</a>
+		</div> -->
+		<!--返回顶部 结束 -->
+
+		<!--jQuery JS-->
+		<script src="js/jquery.min.js"></script>
+		<!--Bootstrap JS-->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.js"></script>
+		<!-- Way Point js -->
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/counter.js"></script>
+		<!-- Contact js -->
+		<script src="js/contact.js"></script>
+		<!-- Owl carosul js -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Venobox JS-->
+		<script src="js/venobox.min.js"></script>
+		<!--Main-->
+		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+			});
+		</script>
+	</body>
+
+</html>

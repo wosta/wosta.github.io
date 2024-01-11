@@ -1,0 +1,483 @@
+@media (max-width: 1199.98px) { 
+    .header .call_btn a {
+        width: 140px;
+        margin-left: 30px;
+    }
+    .header.header .nav-link {
+        margin-right: 20px;
+    }
+    .copyRightArea {
+        margin-top: 120px;
+    }
+    #slider-area .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: none;
+        background-color:rgba(0, 0, 0, 0.7);
+    }
+
+    #slider-area .slidveideo a {
+        border-color:#f1f1f1;
+        color: #f1f1f1;
+    }
+    #slider-area .slidveideo a:hover {
+        background: #f1f1f1;
+        color: rgb(119, 119, 119);
+    }
+    .serviceDetails {
+        padding: 120px 0px 115px;
+    }
+    .fun-fact-style-one {
+        padding: 120px 0px 114px;
+    }
+    .address .media {
+        display: flow-root!important;
+        text-align: center;
+    }
+    .address h4 {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media (max-width: 991.98px) { 
+    header.header {
+        padding: 15px 0px 15px;
+    }
+    .header.header .nav-link {
+        padding: 10px 0px 10px;
+        display: inline-block;
+    }
+    .header .call_btn a {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+    .header.header .nav-link.active::before{
+        display: none;
+    }
+    #navbarSupportedContent ul{
+        padding-top: 29px;
+    }
+    .footer .widget3 h5 {
+        margin-top: 35px;
+    }
+    .footer .widget4 h5 {
+        margin-top: 35px;
+    }
+    .spabreadcrumb.extrapadding {
+        padding-bottom: 118px;
+    }
+    .footer .widget3 h5 {
+        margin-top: 38px;
+        margin-bottom: 32px;
+    }
+    .footer .widget4 h5 {
+        margin-top: 38px;
+        margin-bottom: 32px;
+    }
+    .copyRightArea {
+        margin-top: 100px;
+    }
+    .single-fun-fact-style-one {
+        margin-bottom: 47px;
+    }
+    .fun-fact-style-one {
+        padding: 120px 0px 67px;
+    }
+    .chooseUsimg{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .fun-fact-style-one .single-fun-fact-style-one h3 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .error-content .error-title {
+        font-size: 150px;
+        line-height: 160px;
+    }
+    .error-content a {
+        font-size: 18px;
+    }
+    .footer .widget2 h5{
+        margin-top: 54px;
+    }
+
+    .sidebar .sidebar-widget:first-child {
+        padding-top: 34px;
+    }
+
+    .fun-fact-style-one .single-fun-fact-style-one h3 {
+        font-size: 45px;
+    }
+    .fun-fact-style-one .single-fun-fact-style-one .icon-box i {
+        font-size: 40px;
+        line-height: 80px;
+    }
+    .fun-fact-style-one .single-fun-fact-style-one .icon-box {
+        width: 80px;
+        height: 80px;
+    }
+    .serviceDetails .content h2 {
+        margin-top: 44px;
+    }
+    .blogs .blog-box .blog-details .meta li {
+        padding-right: 0px;
+    }
+    .sidebar .search-form input {
+        margin-top: 50px;
+    }
+
+    .footer .widget3 h5 {
+        margin-top: 34px!important;
+    }
+    .footer .widget4 h5 {
+        margin-top: 34px!important;
+    }
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .navbar-light .navbar-brand {
+        padding-left: 15px;
+    }
+    #navbarSupportedContent {
+        padding: 0px 15px;
+    }
+    h2,
+    .sectionHeader h2 {
+        font-size: 30px;
+    }
+    .serviceDetails {
+        padding: 120px 0px 117px;
+    }
+    .feature {
+        padding: 110px 0px 65px;
+    }
+    .feature {
+        padding: 106px 0px 70px;
+    }
+    .single-blog .blog-box h3 {
+        font-size: 20px;
+    }
+    .error-content .error-title {
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .sectionHeader .sectionSeparator {
+        margin: 20px 0px 19px;
+    }
+
+    .sidebar .sidebar-widget h4 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0 0 20px;
+        font-weight: 600;
+    }
+    .contact-wrap .contact-form {
+        padding: 69px 60px 80px;
+    }
+    .contact-wrap .sectionHeader {
+        margin-bottom: 50px;
+    }
+
+
+
+ }
+
+
+@media (max-width: 500px) { 
+
+ }
+
+ @media (max-width: 414px) {
+    #slider-area .slidveideo {
+        display: block;
+        margin-top: 20px;
+    }
+    #slider-area .slidveideo {
+        margin-top: 18px;
+    }
+    .single-blog .blog-box .comments-container h3 {
+        padding: 17px 0px 6px;
+        margin-bottom: 0px;
+    }
+
+    .single-blog .blog-box .blog_links {
+        margin-top: 23px;
+    }
+    .fun-fact-style-one .single-fun-fact-style-one p {
+        font-size: 20px;
+    }
+    .fun-fact-style-one .single-fun-fact-style-one h3 {
+        font-size: 34px;
+    }
+    h2,
+    .sectionHeader h2,
+    .serviceDetails .content h2,
+    .error-content .error-title {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .error-content .title {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 23px;
+    }
+    .sectionHeader .sectionSeparator {
+        margin: 18px 0px 19px;
+    }
+    .feature .box h3 {
+        font-size: 20px;
+    }
+    .contact-wrap .contact-form {
+        padding: 37px 30px 50px;
+    }
+    .contact-wrap .sectionHeader {
+        margin-bottom: 18px;
+    }
+
+    .single-blog .blog-box h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .footer h5 ,
+    .footer .widget3 h5,
+    .footer .widget4 h5{
+        font-size: 20px;
+    }
+    .contact-form .sectionHeader h2 {
+        margin-bottom: 45px;
+    }
+    .copyRightArea {
+        margin-top: 80px;
+    }
+    .header .call_btn a:hover{
+        background-color: transparent;
+    }
+    .header .call_btn a {
+        background-color: transparent;
+        color: #333;
+        font-size: 16px;
+        padding: 0;
+        text-align: left;
+        height: 40px;
+        margin-bottom: 0;
+        font-weight: 600;
+        margin-top: -5px;
+    }
+    .header .call_btn a i{
+        display: none;
+    }
+    .feature.lifeinsurance {
+        padding-bottom: 80px;
+    }
+ }
+
+ @media (max-width:384px){
+    .comments-container .comments-list li {
+        padding-left: 100px;
+    }
+    .comments-container .comments-list li .comment h4 span {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+ }
+
+ @media (max-width: 360px) {
+
+        .feature .sectionHeader {
+            margin-bottom: 64px;
+        }
+
+        h2, .sectionHeader h2, .serviceDetails .content h2 {
+            font-size: 28px;
+            line-height: 34px;
+        }
+ }
+ 
+ @media (max-width: 360px){
+    .v-box a {
+        width: 65px;
+        height: 65px;
+        line-height: 60px;
+    }
+    .v-box a i{
+        line-height: 65px;
+    }
+    .feature .box i,
+    .address .media i {
+        font-size: 30px;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+    .recent-posts-widget .recent-post-description h6 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .recent-posts-widget .recent-post-description .time {
+        font-size: 13px;
+        color: #616161;
+    }
+    .faq-accordian .panel-group .panel .panel-heading .panel-title a {
+        font-size: 16px;
+        color: #333;
+    }
+    .error-content a {
+        font-size: 16px;
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .header .call_btn a {
+        background-color: transparent;
+        color: #333;
+        font-size: 16px;
+        padding: 0;
+        text-align: left;
+        height: 40px;
+        margin-bottom: 0;
+        font-weight: 600;
+        margin-top: -5px;
+    }
+    .contact-form .mr_btn_fill{
+        width: 100%;
+    }
+    .address h4{
+        margin-top: 15px;
+        font-size: 21px;
+    }
+    .footer .widget2 .media img {
+        width: 80px;
+    }
+    .comments-container .comments-list li .avatar {
+        position: initial;
+    }
+    
+    .comments-container .comments-list li .comment {
+        padding-top: 0px;
+    }
+    
+    .comments-container .comments-list li {
+        padding-left: 0;
+    }
+    .single-blog .blog-box .comments-container h3 {
+        margin-bottom: 20px;
+    }
+    .comments-container .comments-list li {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    .comments-container .comments-list li:last-child {
+        border-bottom: none;
+        border-top: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .header .call_btn a:hover{
+        background-color: transparent;
+    }
+
+ }
+
+ @media (max-width: 320px) {
+    .navbar-light .navbar-brand img{
+        width: 130px;
+    }
+    .contact-form .mr_btn_fill {
+        width: 100%;
+    }
+    .comments-container .comments-list li {
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+        /* padding-top: 74px; */
+    }
+    
+ }
+
+ @media (max-width: 330px){
+    .sectionHeader h2{
+        font-size: 22px;
+    }
+    .serviceDetails .content h2 {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 21px;
+    } 
+    .feature .box h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer h5, .footer .widget3 h5, .footer .widget4 h5 {
+        font-size: 18px;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+    .widget2 {
+        margin-top: 30px;
+    }
+    .faq-accordian .panel-group .panel .panel-heading .panel-title a {
+        padding: 20px 25px;
+        padding-left: 55px;
+    }
+    .faq-accordian .panel-group .panel .panel-body {
+        font-size: 15px;
+    }
+    .error-content .title {
+        font-size: 26px;
+        line-height: 20px;
+        margin-bottom: 21px;
+    }
+    .error-content .error-title {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .error-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .address h4 {
+        margin-top: 25px;
+        font-size: 21px;
+    }
+    .sectionHeader h2 {
+        font-size: 30px;
+    }
+
+    .single-blog .blog-box h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .single-blog .blog-box .comments-container h3,
+    .single-blog .blog-box .comments-form h3{
+        font-size: 24px;
+    }
+    .serviceDetails .content h2 {
+        font-size: 26px;
+    }
+    .feature .box h3 {
+        font-size: 20px;
+    }
+ }
+
+ @media (min-width: 414px)  and (max-width: 415px){
+    .mybtn {
+        width: 160px;
+    }
+ }

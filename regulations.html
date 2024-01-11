@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="zxx">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+		<title>华文财税</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<!--网站图标-->
+		<link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+		<!--Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!--字体 样式-->
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="css/helper.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+
+		<!-- 动画 -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<!--弹出框插件 -->
+		<link rel="stylesheet" type="text/css" href="css/venobox.css">
+		<!--轮播 banner-->
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+		<!--公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--响应样式 -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>
+	<script type="text/javascript">
+		(function() {
+			var whdef = 100 / 1920; // 表示1920的设计图,1rem == 100px 其他值都可以
+			// var wH = window.innerHeight;// 当前窗口的高度
+			var wW = window.innerWidth; // 当前窗口的宽度
+			var rem = wW * whdef; // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
+			document.getElementsByTagName("html")[0].style.fontSize = rem + 'px'
+		})()
+	</script>
+	<body>
+
+		<!-- 头部导航 开始 -->
+		<header id="mainHeader" class="header">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-expand-lg navbar-light p-0">
+				<div class="container-fluid">
+					<a href="index.html">
+						<img src="img/logo.png" alt="" class="logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<!-- <li class="nav-item active">
+							<a class="nav-link active" href="index.html">Home</a>
+						</li> -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="aboutUs" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									关于我们
+								</a>
+								<div class="dropdown-menu" aria-labelledby="aboutUs">
+									<a class="dropdown-item" href="aboutUs.html">公司概况</a>
+									<a class="dropdown-item" href="aboutUs.html">管理团队</a>
+									<a class="dropdown-item" href="aboutUs.html">分支机构</a>
+									<a class="dropdown-item" href="aboutUs.html">发展历程</a>
+									<a class="dropdown-item" href="aboutUs.html">荣誉资质</a>
+									<a class="dropdown-item" href="aboutUs.html">华文之歌</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="services.html">服务领域</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="blog" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									新闻中心
+								</a>
+								<div class="dropdown-menu" aria-labelledby="blog">
+									<a class="dropdown-item" href="news.html?id=1">华文动态</a>
+									<a class="dropdown-item" href="news.html?id=2">华文下午茶</a>
+									<a class="dropdown-item" href="news.html?id=3">专业解读</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="regulations.html">政策法规</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">华文讲堂</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="joinUs.html">加入我们</a>
+							</li>
+						</ul>
+						<div class="call_btn">
+							<a href="#">
+								<i class="fas fa-phone"></i>
+								400-995-2686
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--头部导航 结束 -->
+		<!-- 背景区域 开始 -->
+		<section id="regulationsSection" class="regulationsSection"></section>	
+		<!--  背景区域 结束  -->
+		<section class="regulations-info-box">
+			<div class="container-fluid">
+				<!-- 内容区域 开始 -->
+				<div class="row justify-content-center">
+					<div class="regulations-centent-box">
+						<!-- 左侧导航树 开始 -->
+						<div class="left-tree-b">
+							<div class="sidebar-btn">
+								<img src="./img/icon-treebtn.png" alt="" id="sidebar-btn-i"/>
+							</div>
+							<div class="form-box">
+								<form action="" method="post">
+									<div class="input-group-box">
+										<button class="sidebar-btn-b"><img src="./img/icon-seach.png" alt="" /></button>
+										<input type="text" class="sidebar-input-b"  placeholder="请输入关键字" />
+									</div>
+								</form>
+							</div>
+							<div class="sidebar" id="sidebar">
+								<div class="sidebar-inner slimscroll">
+									<div id="sidebar-menu" class="sidebar-menu">
+										<ul>
+											<li class="menu-title"> 
+												<a href="javascript:void(0);">
+													<i class="iconfont icon-jinqian-"></i>
+													<span>税收政策法规</span>
+												</a>
+												<ul>
+													<li class="submenu">
+														<a href="javascript:void(0);">
+															<i class="iconfont icon-fenjifenlei"></i>
+															<span>税种分类</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>
+															<li>
+																<a href="javascript:void(0);" class="active"> <span>增值税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>消费税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>营业税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>个人所得税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>资源税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>环境保护税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>房产税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>房地产税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>城市土地使用税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>土地增值税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>车船税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>车辆购置税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>烟叶税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>耕地占用税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>契税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>船舶吨税</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>进出口税收</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>有关规费</span></a>
+															</li>
+															<li>
+																<a href="javascript:void(0);"> <span>其他</span></a>
+															</li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:void(0);">
+															<i class="iconfont icon-airudiantubiaohuizhi-zhuanqu_aidushu"></i>
+															<span>税收征管</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>
+															<li><a target="_blank" href="/list_44"><span>税务稽查</span></a></li>
+															<li><a target="_blank" href="/list_65"><span>税收征管</span> </a></li>
+															<li><a target="_blank" href="/list_102"><span>纳税申报</span></a></li>
+															<li><a target="_blank" href="/list_103"><span>税收优惠</span></a></li>   
+															<li><a target="_blank" href="/list_104"><span>纳税评估</span></a></li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:void(0);">
+															<i class="iconfont icon-zhengcejiedu"></i>
+															<span>解读及访谈</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a> 
+														<ul>             
+															<li><a target="_blank" href="/list_106"><span>减税降费政策操作指南</span></a></li>
+														</ul>
+													</li>
+
+												</ul>
+											</li>
+											<li class="menu-title"> 
+												<a href="javascript:void(0);">
+													<i class="iconfont icon-xinhao-signal-fill"></i>
+													<span>审计政策法规</span>
+												</a>
+												<ul>
+													<li class="submenu">
+														<a href="javascript:void(0);">
+															<i class="pe-7s-jsj"></i>
+															<span>其他内容</span>
+														</a>
+													</li>
+
+												</ul>
+											</li>
+											<li class="menu-title"> 
+												<a href="javascript:void(0);">
+													<i class="iconfont icon-zaojiagongchengshi"></i>
+													<span>造价政策法规</span>
+												</a>
+												<ul>
+													<li class="submenu">
+														<a href="javascript:void(0);">
+															<i class="pe-7s-jsj"></i>
+															<span>其他内容</span>
+														</a>
+													</li>
+
+												</ul>
+											</li>
+											<li class="menu-title"> 
+												<a href="javascript:void(0);">
+													<i class="iconfont icon-gongshangdengji"></i>
+													<span>工商法规</span>
+												</a>
+												<ul>
+													<li class="submenu">
+														<a href="/list_125">
+															<i class="iconfont icon-gongshangdengji"></i>
+															<span>工商法规</span>
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li class="menu-title"> 
+												<a href="javascript:void(0);">
+													<i class="iconfont icon-shixindiqiu"></i>
+													<span>地域范围</span>
+												</a>
+												<ul>
+													<li class="submenu">
+														<a  href="javascript:0;">
+															<i class="pe-7s-jsj"></i>
+															<span>北京市</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>             
+															<li><a target="_blank" href="/list_26"><span>直辖市法规</span></a></li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:0;">
+															<i class="pe-7s-jsj"></i>
+															<span>内蒙古自治区</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>             
+															<li><a target="_blank" href="/list_27"><span>自治区法规</span></a></li>
+															<li><a target="_blank" href="/list_124"><span>呼和浩特市</span></a></li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:0;">
+															<i class="pe-7s-jsj"></i>
+															<span>河北省</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>             
+															<li><a target="_blank" href="/list_31"><span>省级法规</span></a></li>
+															<li><a target="_blank" href="/list_32"><span>石家庄市</span></a></li>
+															<li><a target="_blank" href="/list_33"><span>秦皇岛市</span></a></li>
+															<li><a target="_blank" href="/list_34"><span>唐山市</span></a></li>
+															<li><a target="_blank" href="/list_35"><span>邯郸市</span></a></li>
+															<li><a target="_blank" href="/list_36"><span>邢台市</span></a></li>
+															<li><a target="_blank" href="/list_37"><span>保定市</span></a></li>
+															<li><a target="_blank" href="/list_38"><span>张家口市</span></a></li>
+															<li><a target="_blank" href="/list_39"><span>承德市</span></a></li>
+															<li><a target="_blank" href="/list_40"><span>廊坊市</span></a></li>
+															<li><a target="_blank" href="/list_41"><span>沧州市</span></a></li>
+															<li><a target="_blank" href="/list_42"><span>衡水市</span></a></li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:0;">
+															<i class="pe-7s-jsj"></i>
+															<span>山东省</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>             
+															<li><a target="_blank" href="/list_66"><span>省级法规</span></a></li>
+														</ul>
+													</li>
+													<li class="submenu">
+														<a href="javascript:0;">
+															<i class="pe-7s-jsj"></i>
+															<span>河南省</span>
+															<i class="pe-7s-E6 arrow"></i>
+														</a>
+														<ul>             
+															<li><a target="_blank" href="/list_83"><span>省级法规</span></a></li>
+															<li><a target="_blank" href="/list_84"><span>郑州市</span></a></li>
+															<li><a target="_blank" href="/list_90"><span>新乡市</span></a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- 左侧导航树 结束 -->
+						<!-- 右侧模块 开始 -->
+						<div class="rifht-info-b">
+							<!-- 右侧模块 上部 开始 -->
+							<div class="rifht-imginput-box">
+								<div class="rifht-img-box">
+									<img src="./img/regulations-bg.png" alt="" />
+									<a href="javascript:0;" class="rifht-btn">立即了解</a>
+								</div>
+								<div class="rifht-input-box">
+									<form action="" id="" method="POST">
+										<!-- 输入框 -->
+										<div class="from-group group-box">
+											<label for="name">标题：</label>
+											<div class="input-div">
+												<input type="text" class="form-control"/>
+											</div>
+										</div>
+										<div class="from-group group-box">
+											<label for="name">内容：</label>
+											<div class="input-div">
+												<input type="text" class="form-control"/>
+											</div>
+										</div>
+										<div class="from-group group-box">
+											<label for="name">文号：</label>
+											<div class="input-div">
+												<input type="text" class="form-control"/>
+											</div>
+										</div>
+										<div class="slide-sel-box">
+											<div class="slide-title">税种：</div>
+											<div class="sel-list-box">
+												<div id="tax-carousel" class="tax-carousel">
+													<a href="javascript:0;">增值税</a>
+													<a href="javascript:0;">消费税</a>
+													<a href="javascript:0;">营业税</a>
+													<a href="javascript:0;">企业所得税</a>
+												</div>
+											</div>
+										</div>
+										<div class="slide-sel-box">
+											<div class="slide-title">地区：</div>
+											<div class="sel-list-box">
+												<div id="add-carousel" class="tax-carousel">
+													<a href="javascript:0;">全国</a>
+													<a href="javascript:0;">北京</a>
+													<a href="javascript:0;">上海</a>
+													<a href="javascript:0;">广州</a>
+													<a href="javascript:0;">深圳</a>
+													<a href="javascript:0;">杭州</a>
+													<a href="javascript:0;">天津</a>
+													<a href="javascript:0;">重庆</a>
+													<a href="javascript:0;">武汉</a>
+													<a href="javascript:0;">南京</a>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="rifht-frm-btn">
+											<button type="submit" class="mr_btn_1">提交申请</button>
+										</div>
+									</form>
+								</div>
+							</div>
+							<!-- 右侧模块 上部 结束 -->
+							<!-- 右侧模块 下部列表 开始 -->
+							<div class="rifht-lilist-box">
+								<table class="table table-hover table-center mb-0">
+									<thead>
+										<tr>
+											<th style="width: 6rem;">文件标题名称</th>
+											<th style="width: 3.1rem;">文号</th>
+											<th style="width: 1.8rem;">发文日期</th>
+											<th style="padding-left:0.4rem;">地域</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td >
+												<a href="javascript:0;" style="width: 6rem;" class="tr-a">
+													<img src="./img/icon-jxl.png" alt="" style="width: 0.12rem;height: 0.12rem;"/>
+													<span style="padding-left: 0.09rem;">关于扩大全额退还增值税留抵税额政策行业范围有关征管事项的公告</span>
+												</a>
+											</td>
+											<td><a href="javascript:0;" style="width: 3.1rem;" class="tr-a">国家税务总局公告2022年第11号</a></td>
+											<td><a href="javascript:0;" style="width: 1.8rem;" class="tr-a">2022-06-08</a></td>
+											<td><a href="javascript:0;" style="padding-left:0.4rem;" class="tr-a">河北省邯郸市</a></td>
+										</tr>
+
+										<tr>
+											<td >
+												<a href="javascript:0;" style="width: 6rem;" class="tr-a">
+													<img src="./img/icon-jxl.png" alt="" style="width: 0.12rem;height: 0.12rem;"/>
+													<span style="padding-left: 0.09rem;">关于扩大全额退还增值税留抵税额政策行业范围有关征管事项的公告</span>
+												</a>
+											</td>
+											<td><a href="javascript:0;" style="width: 3.1rem;" class="tr-a">国家税务总局公告2022年第11号</a></td>
+											<td><a href="javascript:0;" style="width: 1.8rem;" class="tr-a">2022-06-08</a></td>
+											<td><a href="javascript:0;" style="padding-left:0.4rem;" class="tr-a">河北省邯郸市</a></td>
+										</tr>
+
+										<tr>
+											<td >
+												<a href="javascript:0;" style="width: 6rem;" class="tr-a">
+													<img src="./img/icon-jxl.png" alt="" style="width: 0.12rem;height: 0.12rem;"/>
+													<span style="padding-left: 0.09rem;">关于扩大全额退还增值税留抵税额政策行业范围有关征管事项的公告</span>
+												</a>
+											</td>
+											<td><a href="javascript:0;" style="width: 3.1rem;" class="tr-a">国家税务总局公告2022年第11号</a></td>
+											<td><a href="javascript:0;" style="width: 1.8rem;" class="tr-a">2022-06-08</a></td>
+											<td><a href="javascript:0;" style="padding-left:0.4rem;" class="tr-a">河北省邯郸市</a></td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- 分页 -->
+								<div class="page01">
+									<nav aria-label="page navigation">
+										<div class="pagination justify-content-center">
+											<a class="page-item page-link" href="{page:index}">首页</a>
+											<a class="page-item page-link" href="{page:pre}">上一页</a>
+											<a class="page-item page-link active" href="">1</a>
+											<a class="page-item page-link" href="">2</a>
+											<a class="page-item page-link" href="{page:next}">下一页</a>
+											<a class="page-item page-link" href="{page:last}">尾页</a>
+										</div>
+									</nav>	
+									<!-- <div class="text-center my-5 text-secondary">未查询到任何数据！</div> -->
+								</div>
+							</div>
+							<!-- 右侧模块 下部列表 结束 -->
+						</div>
+						<!-- 右侧模块 结束 -->
+
+
+					</div>
+				</div>
+				<!-- 内容区域 结束 -->
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    		<!-- footer 开始 -->
+		<footer class="footer">
+			<div class="footer-info-box">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-info-ulbox">
+								<div class="footer-links">
+									<div>关于我们</div>
+									<ul>
+										<li><a href="#">华文动态</a></li>
+										<li><a href="#">华文下午茶</a></li>
+										<li><a href="#">行业动态</a></li>
+										<li><a href="#">财税政策</a></li>
+									</ul>
+								</div>
+								<div class="footer-links">
+									<div>服务领域</div>
+									<ul>
+										<li><a href="#">会计审计</a></li>
+										<li><a href="#">税务咨询</a></li>
+										<li><a href="#">资产评估</a></li>
+										<li><a href="#">造价咨询</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-logobox">
+								<a class="footer-logo" href="#"><img src="./img/logo-1.png" alt="logo" /></a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-4">
+							<div class="footer-telbox">
+								<div class="footer-telbox-top">
+									<img src="./img/icon-tel.png" />
+									<div class="footer-telbox-top-t">
+										<div class="telbox-top-text">全国服务热线</div>
+										<div class="telbox-top-num">400-955-2686</div>
+									</div>
+								</div>
+								<div class="footer-telbox-items">
+									<div>
+										<span class="span-text">北京服务热线</span>
+										<span class="span-num">010-82537588</span>
+									</div>
+									<div>
+										<span class="span-text">沧州服务热线</span>
+										<span class="span-num">0317-6612366</span>
+									</div>
+									<div>
+										<span class="span-text">邯郸服务热线</span>
+										<span class="span-num">0310-3212366</span>
+									</div>
+									<div>
+										<span class="span-text">新乡服务热线</span>
+										<span class="span-num">0373-2512366</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyRightArea">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center">
+							<p style="font-family:'Microsoft Yahei';">&copy;Copyright © 2021 华文财税&nbsp;&nbsp;冀ICP备19008586号-1</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--  footer 结束 -->
+
+		<!--返回顶部 开始-->
+		<!-- <div class="totop">
+			<a href="#top">
+				<p>
+					<i class="fas fa-angle-up"></i>
+				</p>
+			</a>
+		</div> -->
+		<!--返回顶部 结束 -->
+
+		<!--jQuery JS-->
+		<script src="js/jquery.min.js"></script>
+		<!--Bootstrap JS-->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.js"></script>
+		<!-- Way Point js -->
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/counter.js"></script>
+		<!-- Contact js -->
+		<script src="js/contact.js"></script>
+		<!-- Owl carosul js -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Venobox JS-->
+		<script src="js/venobox.min.js"></script>
+		<!--Main-->
+		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+			});
+		</script>
+	</body>
+
+</html>
